@@ -3,17 +3,27 @@
 .active{
     font-weight: bold;
 }
-.h1{
+h1{
+    padding: 35px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+h4{
+    text-align: center;
 }
 .gallery{
     display:grid;
-    padding:auto;
+    padding: 15px;
+    margin: 15px;
     place-items: center;
     grid-template-columns: auto;
 }
-
+#header_logo{
+    height: 12%;
+    width: 100%;
+}
 @media screen and (min-width:600px) {
     .gallery{
         grid-template-columns: auto 30px auto;
@@ -89,8 +99,13 @@
     }
 }
 @media screen and (min-width:900px) {
+    .gallery > img {
+        object-fit: cover;
+        width: 100%;
+      }
     .gallery{
         grid-template-columns: auto 30px auto 30px auto;
+        row-gap: 25px;
     }
     #image1{
         grid-column: 1 ;

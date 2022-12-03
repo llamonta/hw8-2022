@@ -4,7 +4,6 @@ body,main{
     color: white;
 }
 .header{
-    background-color: #c60c30;
     height: 80px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -15,16 +14,62 @@ body,main{
     border: 5px 5px 5px 5px;
     color:black;
 }
+h1{
+    padding: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
 nav li{
     display: inline;
     padding-right:20px;
 }
 #front{
-    
-    padding-left: auto;
-    padding-right: auto;
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 #title{
     text-align: center;
 }
-a:visited{color:white}
+a:visited{
+    color:white
+}
+.skip-to-content-link {
+    left: 50%;
+    position: absolute;
+    transform: translateY(-3100%);
+}
+.skip-to-content-link:focus {
+    transform: translateY(0%);
+  }
+#ebay{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin: auto;
+}
+#ebay_box{
+    width: 215px;
+    height: 25px;
+    background-color: #c60c30;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius:90px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+#header_logo{
+    height: 12%;
+    width: 100%;
+}
